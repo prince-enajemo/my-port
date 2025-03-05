@@ -1,8 +1,8 @@
-import htmlPic from "../assets/images/skills-icon/icons8-html-100.png"
-import cssPic from "../assets/images/skills-icon/icons8-css-100.png"
-import javaScriptPic from "../assets/images/skills-icon/icons8-javascript-100.png"
-import reactPic from "../assets/images/skills-icon/icons8-react-80 (1).png"
-import tailwindPic from "../assets/images/skills-icon/icons8-tailwind-css-100 (1).png"
+// import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io";
 
 function Skills(){
     return(
@@ -11,26 +11,25 @@ function Skills(){
             <h1 className="text-[50px]">My Work Skills </h1>
         
         <div className="flex gap-10 .5">
-            <div className="w-50 h-55 rounded-3xl text-center flex flex-col items-center gap-3.5 justify-center blue-bg">
-                <img className="w-20" src={htmlPic} alt="" />
-                <h1>HTML</h1>
+            <div className="w-[250px] h-[250px] rounded-3xl text-center flex flex-col items-center  gap-10 p-5 blue-bg">
+            {/* <IoLogoJavascript className="text-7xl"/> */}
+            <IoLogoJavascript className="text-6xl"/>
+            <p>Proficient in JavaScript for front-end development, with strong DOM manipulation and event handling skills.</p>
             </div>
-            <div className="w-50 h-55 rounded-3xl text-center flex flex-col items-center gap-3.5 justify-center blue-bg">
-                <img className="w-20" src={cssPic} alt="" />
-                <h1>CSS</h1>
+            <div className="w-[250px] h-[250px] rounded-3xl text-center flex flex-col items-center  gap-10 p-5 blue-bg">
+            <FaReact className="text-6xl"/>
+            <p>Adept at building reusable and composable React components using functional and class-based components.</p>
             </div>
-            <div  className="w-50 h-55 rounded-3xl text-center flex flex-col items-center gap-3.5 justify-center blue-bg">
-                <img className="w-20" src={javaScriptPic} alt="" />
-                javaScript
+            <div  className="w-[250px] h-[250px] rounded-3xl text-center flex flex-col items-center  gap-10 p-5 blue-bg">
+               
+            <RiTailwindCssFill className="text-6xl"/>
+            <p>Proficient in using Tailwind CSS utility classes to build custom and responsive user interfaces.</p>
             </div>
-            <div  className="w-50 h-55 rounded-3xl text-center flex flex-col items-center gap-3.5 justify-center blue-bg">
-                <img className="w-20" src={reactPic} alt="" />
-                <h1>REACT</h1>
-            </div>
-            <div  className="w-50 h-55 rounded-3xl text-center flex flex-col items-center gap-3.5 justify-center blue-bg">
-                <img className="w-20" src={tailwindPic} alt="" />
-                <h1>TAILWIND</h1>
-            </div>
+            <div  className="w-[250px] h-[250px] rounded-3xl text-center flex flex-col items-center  gap-10 p-5 blue-bg">
+            <RiNextjsFill className="text-6xl"/>
+             <p>I build fast, SEO-friendly, and scalable web apps with Next.js, using SSR, SSG, and API routes for optimal performance.</p>
+             </div>
+           
         </div>
           </div>
         

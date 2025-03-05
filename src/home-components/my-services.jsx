@@ -29,7 +29,7 @@ function Myservices(){
             <hr className="h- w-full primary-color "/>
 
             <section  className="flex w-120 justify-between text-[25px]">
-                <h1>Rsponsive Web Design</h1>
+                <h1>Responsive Web Design</h1>
                 <img className="w-15 h-15" src={checked} alt="" />
             </section>
 

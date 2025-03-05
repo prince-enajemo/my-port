@@ -108,3 +108,7 @@ animation: sec2-text-h1 1s linear;
         opacity: 0;
     }
 }
+
+.circle{
+    border-radius: 100%;
+}
