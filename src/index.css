@@ -84,7 +84,7 @@ body{
 
 .section2-bg{
     /* background:#0004 url("url(assets/Demystifying-JavaScript-A-Beginners-Guide.jpg")) ; */
-    background:hwb(0 5% 95% / 0.856) url(assets/Demystifying-JavaScript-A-Beginners-Guide.jpg) ;
+    background:hwb(0 5% 95% / 0.856) url(assets/images/Demystifying-JavaScript-A-Beginners-Guide.jpg) ;
     background-blend-mode: multiply;
 }
 

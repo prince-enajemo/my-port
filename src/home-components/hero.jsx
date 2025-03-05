@@ -1,7 +1,7 @@
 
 import React from "react";
-import arrow from "../assets/images/arrow.png"
-
+import arrow from "../assets/images/arrow.png";
+import heroPic from "../assets/images/20241202_145313.jpg"
 
 function Hero(){
     return(
@@ -38,7 +38,7 @@ function Hero(){
 
 
                <div className="absolute right-25.5 top-45 landing-page-animation-img">
-                <img className="w-80 h-100 rounded-[50px]  blue-bg" src="src/assets/20241202_145313.jpg" alt="" />
+                <img className="w-80 h-100 rounded-[50px]  blue-bg" src={heroPic} alt="" />
                </div>
 
                <div className="w-30 h-40 blue-bg absolute right-90 top-110 rounded-3xl flex flex-col items-center justify-center landing-page-animation-img"> 
