@@ -1,6 +1,8 @@
 
 import React from "react";
 
+
+
 function Hero(){
     return(
            <div className="h-screen w-screen  flex items-center   ">
