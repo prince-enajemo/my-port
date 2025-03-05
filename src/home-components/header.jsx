@@ -1,4 +1,4 @@
-import myImage from "../assets/Screenshot_2025-03-03_141059-removebg-preview.png";
+import logo from "../assets/images/Screenshot_2025-03-03_141059-removebg-preview.png";
 
 
 function Header(){
@@ -7,7 +7,7 @@ function Header(){
    return(
      <header className=" nav-anim flex justify-between items-center h-3.5 pt-10 pr-20 w-screen ">
     <div>
-        <img src={myImage} alt="" className="w-70.5  " />
+        <img src={logo} alt="" className="w-70.5  " />
     </div>
 
     <nav className="flex gap-10 text-xl ">

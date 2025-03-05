@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import arrow from "../assets/images/arrow.png"
 
 
 function Hero(){
@@ -10,7 +10,7 @@ function Hero(){
                 <h1 className="text-9xl text-ani">I'm Rex</h1>
                 <p className="text-4xl primary-color">Freelance Designer & Developer</p>
                 <button className="w-40 h-13 rounded-4xl blue-bg flex items-center justify-center  gap-2">
-                    HIRE ME NOW  <img className="w-6" src="src/assets/arrow.png" alt="" />
+                    HIRE ME NOW  <img className="w-6" src={arrow} alt="" />
                 </button>
 
                 <div className="socials flex gap-2.5">
