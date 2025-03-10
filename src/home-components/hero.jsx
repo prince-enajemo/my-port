@@ -1,15 +1,15 @@
 
 import React from "react";
 import arrow from "../assets/images/arrow.png";
-import heroPic from "../assets/images/20241202_145313.jpg"
+import heroPic from "../assets/my-img/20250306_150853.jpg"
 
 function Hero(){
     return(
-           <div className="h-screen w-screen  flex items-center   ">
-               <div className=" landing-page-animation pl-20 flex flex-col gap-5.5">
-                <h1 className="text-9xl text-ani">I'm Rex</h1>
-                <p className="text-4xl primary-color">Freelance Designer & Developer</p>
-                <button className="w-40 h-13 rounded-4xl blue-bg flex items-center justify-center  gap-2">
+           <div className="flex-col lg:h-screen w-screen  flex  lg:flex-row items-center  md:mt-30  " id="home">
+               <div className=" landing-page-animation pl-5 justify-center md:pl-20 flex flex-col gap-5.5 h-screen">
+                <h1 className="text-4xl md:text-9xl text-ani">I'm Rex</h1>
+                <p className="text-3xl md:text-4xl primary-color">Freelance Designer & Developer</p>
+                <button className="w-40 h-13 rounded-4xl blue-bg flex items-center justify-center  gap-2 ">
                     HIRE ME NOW  <img className="w-6" src={arrow} alt="" />
                 </button>
 
@@ -37,14 +37,14 @@ function Hero(){
 
 
 
-               <div className="absolute right-25.5 top-45 landing-page-animation-img">
-                <img className="w-80 h-100 rounded-[50px]  blue-bg" src={heroPic} alt="" />
+               <div className="w-screen md:w-1/2 landing-page-animation-img flex  justify-center">
+                <img className="w-[300px] md:w-80 md;h-150 rounded-[50px]  blue-bg" src={heroPic} alt="" />
                </div>
 
-               <div className="w-30 h-40 blue-bg absolute right-90 top-110 rounded-3xl flex flex-col items-center justify-center landing-page-animation-img"> 
+               {/* <div className="w-50 h-60 blue-bg absolute right-90 top-110 rounded-3xl flex flex-col items-center justify-center landing-page-animation-img"> 
                 <h1 className="text-[50px]">2+</h1>
-                <p className="text-[15px] text-center w-20">years of experience</p>
-               </div>
+                <p className="text-[20px] text-center w-30">years of experience</p>
+               </div> */}
            </div>
     );
 

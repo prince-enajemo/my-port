@@ -6,7 +6,7 @@ import arrow from "../assets/images/arrow.png";
 function AboutMe(){
     return(
      <>
-      <div className="flex justify-center bg-neutral-950 gap-5">
+      <div className="flex justify-center bg-neutral-950 gap-5 mb-50" id="about">
         <section className="w-[450px] h-[580px] bg-black flex justify-center items-center rounded-4xl">
             <img className="h-[530px] w-[400px] rounded-4xl" src={aboutImg} alt="" />
         </section>

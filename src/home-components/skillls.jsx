@@ -7,7 +7,7 @@ import { IoLogoJavascript } from "react-icons/io";
 function Skills(){
     return(
         <>
-          <div className="flex gap-30 flex-col items-center">
+          <div className="flex gap-30 flex-col items-center " id="skills">
             <h1 className="text-[50px]">My Work Skills </h1>
         
         <div className="flex gap-10 .5">

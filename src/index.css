@@ -4,6 +4,12 @@
 
 @import "tailwindcss";
 
+*{
+    scroll-behavior: smooth;
+}
+.focus:focus{
+    color: #7190F0;
+}
 
 body{
         background-color: black;

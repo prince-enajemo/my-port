@@ -5,12 +5,13 @@ import Myservices from "./home-components/my-services"
 import Skills from "./home-components/skillls"
 import Meeting from "./home-components/meeting"
 import AboutMe from "./home-components/about-me."
+import GetInTouch from "./home-components/getInTouch"
 
 function App() {
   
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden transition-opacity">
       <Header />
      <Hero/>
      <Section2/>
@@ -18,6 +19,7 @@ function App() {
      <Skills/>
      <Meeting/>
      <AboutMe/>
+     <GetInTouch/>
     </div>
   )
 }
