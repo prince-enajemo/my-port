@@ -6,8 +6,8 @@ import meetingPhoto from "../assets/images/pexels-photo-3194519.jpeg"
 function Meeting(){
  return(
     <>
-    <div className="flex w-screen mt-30 pb-30 justify-center bg-neutral-950 p-5" >
-        <section className="w-[40%] flex flex-col justify-between rounded-4xl bg-black p-10     "> 
+    <div className="flex flex-col  md:flex-row w-screen mt-30 pb-30 justify-center bg-neutral-950 p-5" >
+        <section className="w-[95%] md:w-[40%] flex flex-col justify-between rounded-4xl bg-black p-10     "> 
             <div className="flex flex-col gap-5">
                 <p className="text-2xl primary-color">Need a Project?</p>
                 <h1 className="text-5xl">
