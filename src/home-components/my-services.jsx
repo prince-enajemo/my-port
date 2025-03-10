@@ -6,38 +6,39 @@ import React from "react";
 function Myservices(){
     return(
      <>
-       <div className=" h-150 flex flex-col items-center gap-17">
-       <h1 className="text-[50px]">My Quality Sevices</h1>
+       <div className=" h-150 flex flex-col items-center justify-center gap-17 ">
+       <h1 className="text-[30px]">My Quality Sevices</h1>
 
-       <div className="flex w-screen ">
-        <div className="w-1/2 flex justify-center " >
+       <div className="flex flex-col md:flex-row w-screen gap-20.5 md:gap-0">
+        <div className="w-screen p-1.5 md:p-0 md:w-1/2 flex justify-center " >
            <img className="w-150 rounded-4xl" src={servicesPic} alt="" /> 
         </div>
-        <div className="flex flex-col gap-5 justify-center items-center">
-            <section className="flex w-120 justify-between text-[25px]">
+
+        <div className="flex w-screen md:w-1/2 flex-col gap-5 justify-center items-center">
+            <section className="flex w-[90vw] md:w-120 justify-between text-[20px] md:text-[25px]">
                 <h1>Web Application Development</h1>
-                <img className="w-15 h-15" src={checked} alt="" />
+                <img className="w-10 h-10 md:w-15 md:h-15" src={checked} alt="" />
             </section>
 
-           <hr className="h- w-full primary-color "/>
+           <hr className=" w-[90vw] md:w-full primary-color "/>
 
-            <section className="flex w-120 justify-between text-[25px]">
+            <section className="flex w-[90vw] md:w-120 justify-between text-[20px] md:text-[25px]">
                 <h1>Front-End Development</h1>
-                <img className="w-15 h-15" src={checked} alt="" />
+                <img className="w-10 h-10 md:w-15 md:h-15" src={checked} alt="" />
             </section>
 
-            <hr className="h- w-full primary-color "/>
+            <hr className=" w-[90vw] md:w-full primary-color "/>
 
-            <section  className="flex w-120 justify-between text-[25px]">
+            <section  className="flex w-[90vw] md:w-120 justify-between text-[20px] md:text-[25px]">
                 <h1>Responsive Web Design</h1>
-                <img className="w-15 h-15" src={checked} alt="" />
+                <img className="w-10 h-10 md:w-15 md:h-15" src={checked} alt="" />
             </section>
 
-            <hr className="h- w-full primary-color "/>
+            <hr className=" w-[90vw] md:w-full primary-color "/>
 
-            <section className="flex w-120 justify-between text-[25px]">
+            <section className="flex w-[90vw] md:w-120 justify-between text-[20px] md:text-[25px]">
                 <h1>Web Hosting</h1>
-                <img className="w-15 h-15" src={checked} alt="" />
+                <img className="w-10 h-10 md:w-15 md:h-15" src={checked} alt="" />
             </section>
         </div>
         </div>
