@@ -6,11 +6,11 @@ import arrow from "../assets/images/arrow.png";
 function AboutMe(){
     return(
      <>
-      <div className="flex justify-center bg-neutral-950 gap-5 mb-50" id="about">
-        <section className="w-[450px] h-[580px] bg-black flex justify-center items-center rounded-4xl">
+      <div className="flex flex-col md:flex-row justify-center items-center bg-neutral-950 gap-5 mb-50" id="about">
+        <section className="w-[90%] md:w-[450px] h-[580px] bg-black flex justify-center items-center rounded-4xl">
             <img className="h-[530px] w-[400px] rounded-4xl" src={aboutImg} alt="" />
         </section>
-        <section className="w-[450px] h-[580px] bg-black flex justify-center items-center rounded-4xl ">
+        <section className="w-[90%] md:w-[450px] h-[580px] bg-black flex justify-center items-center rounded-4xl ">
            <div className="w-[400px] h-[530px] flex flex-col justify-center  gap-10  pr-5 ">
            <h3 className="font-bold primary-color">About Me</h3>
             <h1 className="text-3xl">My Special Skills</h1>
