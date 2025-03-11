@@ -121,18 +121,11 @@ export default function Example() {
           </a>
         </PopoverGroup>
        
-<div>
-{/* <a className="focus"  href="index.html">Home</a>
-//         <a className="focus" href="#about">About me</a>
-//         <a className="focus"  href="#skills">Skills</a>
-//         <a className="focus" href="#works">My works</a>
-//         <a className="focus" href="#contact">Contact</a> */}
-</div>
 
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto blue-bg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 left-0 z-10 w-[60vw] overflow-y-auto blue-bg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
