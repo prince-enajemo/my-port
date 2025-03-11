@@ -25,7 +25,7 @@ const GetInTouch = () => {
                     <button className='w-80 h-13 blue-bg rounded-4xl'>SUBMIT</button>
                 </form>
             </section>
-            <section>
+            <section className='flex justify-center'>
                 <img className='w-90' src={getInTouchImg} alt="" />
             </section>
         </div>
