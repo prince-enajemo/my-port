@@ -138,19 +138,19 @@ export default function Example() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 
-              <a href="index.html" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
+              <a onClick={() => setMobileMenuOpen(false)} href="index.html" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             Home
           </a>
-          <a href="#about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
+          <a onClick={() => setMobileMenuOpen(false)} href="#about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             About
           </a>
-          <a href="#skills" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg hover:">
+          <a onClick={() => setMobileMenuOpen(false)} href="#skills" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg hover:">
             Skills
           </a>
-          <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
+          <a onClick={() => setMobileMenuOpen(false)} href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             My works
           </a>
-          <a href="#contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
+          <a onClick={() => setMobileMenuOpen(false)} href="#contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             Contact
           </a>
 
