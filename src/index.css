@@ -27,6 +27,17 @@ body{
     background-color: #7190F0;
 }
 
+.nav-hover-bg:hover{
+    background-color: #FFF;
+    color:  #7190F0;
+}
+
+
+.nav-hover-bg:active{
+    background-color: #FFF;
+    color:  #7190F0;
+}
+
 
 .landing-page-animation{
     animation: land 0.6s linear ;

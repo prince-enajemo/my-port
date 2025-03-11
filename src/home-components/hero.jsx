@@ -5,7 +5,7 @@ import heroPic from "../assets/my-img/20250306_150853.jpg"
 
 function Hero(){
     return(
-           <div className="flex-col lg:h-screen w-screen  flex  lg:flex-row items-center  md:mt-30  " id="home">
+           <div className="flex-col lg:h-screen w-screen  flex  lg:flex-row items-center  md:mt-20  " id="home">
                <div className=" landing-page-animation pl-5 justify-center md:pl-20 flex flex-col gap-5.5 h-screen">
                 <h1 className="text-4xl md:text-9xl text-ani">I'm Rex</h1>
                 <p className="text-3xl md:text-4xl primary-color">Freelance Designer & Developer</p>

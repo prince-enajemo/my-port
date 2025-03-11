@@ -56,24 +56,12 @@ import { useState } from 'react'
 import {
   Dialog,
   DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Popover,
-  PopoverButton,
   PopoverGroup,
-  PopoverPanel,
 } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 
 
@@ -124,16 +112,18 @@ export default function Example() {
 
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 left-0 z-10 w-[60vw] overflow-y-auto blue-bg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
+        <div className="fixed inset-0 z-10  " />
+        <DialogPanel className="fixed transition duration-500 inset-y-0 right-0 z-10 w-[60vw] overflow-y-auto blue-bg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              {/* <img
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
-              />
+              /> */}
+
+           {/* <img src={logo} alt="" className="w-50 md:w-50.5  " /> */}
             </a>
             <button
               type="button"
@@ -148,19 +138,19 @@ export default function Example() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 
-              <a href="index.html" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">
+              <a href="index.html" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             Home
           </a>
-          <a href="#about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">
+          <a href="#about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             About
           </a>
-          <a href="#skills" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">
+          <a href="#skills" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg hover:">
             Skills
           </a>
-          <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">
+          <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             My works
           </a>
-          <a href="#contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-50">
+          <a href="#contact" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white nav-hover-bg">
             Contact
           </a>
 
