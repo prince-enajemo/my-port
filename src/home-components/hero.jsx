@@ -10,7 +10,7 @@ function Hero(){
                 <h1 className="text-4xl md:text-9xl text-ani">I'm Rex</h1>
                 <p className="text-3xl md:text-4xl primary-color">Freelance Designer & Developer</p>
                 <button className="w-40 h-13 rounded-4xl blue-bg flex items-center justify-center  gap-2 ">
-                    HIRE ME NOW  <img className="w-6" src={arrow} alt="" />
+                    Download cv  <img className="w-6" src={arrow} alt="" />
                 </button>
 
                 <div className="socials flex gap-2.5">
